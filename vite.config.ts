@@ -22,3 +22,12 @@ export default defineConfig(({mode}) => {
     },
   };
 });
+import { defineConfig } from 'vite'
+import react from '@vitejs/plugin-react'
+
+// https://vitejs.dev/config/
+export default defineConfig({
+  // REPLACE 'cheykk.github.io' WITH YOUR ACTUAL REPOSITORY NAME
+  base: '/cheykk.github.io/', 
+  plugins: [react()],
+})
