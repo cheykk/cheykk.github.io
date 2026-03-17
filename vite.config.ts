@@ -25,9 +25,8 @@ export default defineConfig(({mode}) => {
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 
-// https://vitejs.dev/config/
+// Since your repo is cheykk.github.io, your base is just '/'
 export default defineConfig({
-  // REPLACE 'cheykk.github.io' WITH YOUR ACTUAL REPOSITORY NAME
-  base: '/cheykk.github.io/', 
+  base: '/', 
   plugins: [react()],
 })
